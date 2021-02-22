@@ -23,7 +23,7 @@ spec:
     - codes: [502]
       return:
         code: 200
-        body: "Ops this is embarrassing! We will be back shortly!"
+        body: "<center><h1>Ops this is embarrassing! We will be back shortly!</h1></center"
     action:
       proxy:
         upstream: coffee
