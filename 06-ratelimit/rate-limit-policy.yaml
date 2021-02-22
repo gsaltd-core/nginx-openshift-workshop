@@ -5,5 +5,5 @@ metadata:
 spec:
   rateLimit:
     rate: 1r/s
-    key: ${binary_remote_addr}
+    key: ${http_user_id}
     zoneSize: 10M
